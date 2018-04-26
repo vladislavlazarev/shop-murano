@@ -165,6 +165,7 @@ $(".number7").text(change) ;
 		$('.kitchen-radio-div').addClass('-active');
 		$('.green-image').removeClass('-green-image-block')
 		$('.kitchen-radio-div').addClass('-green-image-block');
+		
 		let a = Number($('.matrac-radio').val()); 
 		let b = Number($('#matrac').val()); 
 		let c = a + b;
